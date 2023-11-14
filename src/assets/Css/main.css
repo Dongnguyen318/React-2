@@ -1,0 +1,140 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+li {
+  list-style: none;
+  color: #fff;
+}
+body {
+  background-color: #333;
+}
+label {
+  color: #fff;
+}
+input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.wapper {
+  margin: 0 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #010e20;
+}
+.wapper .title-todo {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.input-todo {
+  display: flex;
+  column-gap: 15px;
+  margin-bottom: 5px;
+}
+.input-todo input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.btn {
+  cursor: pointer;
+}
+.btn-add {
+  outline: none;
+  border: none;
+  width: 150px;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  background-color: rgb(20 184 166);
+  color: #fff;
+  border-radius: 0.25rem;
+}
+.btn-add:hover {
+  background-color: rgba(119, 5, 5, 0.604);
+}
+
+.list-todo {
+  background: #36da28;
+  width: 70%;
+  margin: 0 150px;
+  display: flex;
+  flex-direction: column;
+}
+.list-todo .todo-item {
+  color: #fff;
+  padding: 1.5rem 2rem 2rem 2rem;
+  width: 100%;
+}
+.todo-item .infor-todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="checkbox"] {
+  width: max-content;
+  display: block;
+  margin-top: 7px;
+}
+
+.list-todo .options {
+  display: flex;
+  column-gap: 8px;
+}
+.list-todo .option {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.complete {
+  display: flex;
+  align-items: center;
+}
+.list-todo .fix {
+  background-color: rgb(20 184 166);
+}
+.list-todo .dele {
+  background: red;
+}
+.list-todo .exit {
+  background: #5c3011;
+}
+.list-todo .update {
+  background-color: rgb(20, 207, 51);
+}
+.list-todo .infor-todo {
+  display: flex;
+  justify-content: space-between;
+}
+li input {
+  margin-bottom: 8px;
+}
+.check-done {
+  text-decoration: line-through;
+}
